@@ -1,0 +1,501 @@
+claim_id,customer_age,policy_type,incident_type,claim_status,claim_amount,region,claim_date
+1,56,Auto,Theft,Approved,13588.93,Ontario,2023-10-08
+2,69,Life,Theft,Rejected,22122.07,Ontario,2022-08-07
+3,46,Life,Theft,Rejected,2521.46,BC,2023-02-11
+4,32,Life,Fire,Rejected,20700.59,Manitoba,2024-06-06
+5,60,Auto,Fire,Rejected,9266.13,Alberta,2023-07-12
+6,25,Health,Theft,Rejected,8391.32,Manitoba,2023-07-04
+7,38,Life,Natural Disaster,Under Review,24447.93,BC,2022-05-22
+8,56,Home,Collision,Approved,5421.05,Ontario,2023-09-04
+9,36,Auto,Natural Disaster,Under Review,17483.25,Manitoba,2023-05-16
+10,40,Life,Injury,Approved,20625.3,Manitoba,2024-04-19
+11,28,Life,Fire,Under Review,1509.0,Ontario,2023-12-03
+12,28,Home,Collision,Rejected,16924.44,Alberta,2023-08-19
+13,41,Health,Collision,Approved,23812.97,Ontario,2022-10-08
+14,70,Health,Injury,Approved,3543.39,Manitoba,2023-02-28
+15,53,Health,Injury,Under Review,22457.42,Alberta,2024-05-05
+16,57,Life,Theft,Under Review,15072.03,Alberta,2022-09-27
+17,41,Life,Fire,Approved,15606.81,Ontario,2022-06-03
+18,20,Life,Fire,Under Review,15517.13,Manitoba,2023-09-06
+19,39,Auto,Natural Disaster,Under Review,7821.48,BC,2023-10-24
+20,70,Home,Theft,Under Review,23412.44,Manitoba,2022-03-24
+21,19,Life,Theft,Rejected,23710.09,Quebec,2024-08-04
+22,41,Home,Theft,Rejected,15819.96,BC,2024-06-17
+23,61,Home,Theft,Under Review,19693.86,Alberta,2022-10-11
+24,47,Health,Fire,Under Review,15500.32,BC,2024-09-06
+25,55,Auto,Fire,Rejected,12367.76,Alberta,2022-06-22
+26,19,Life,Theft,Rejected,16690.09,Alberta,2024-12-22
+27,38,Health,Natural Disaster,Approved,14048.54,BC,2024-02-02
+28,50,Health,Collision,Approved,15138.16,Alberta,2023-09-25
+29,29,Life,Collision,Rejected,19703.9,Alberta,2024-02-26
+30,39,Home,Natural Disaster,Under Review,12282.14,Quebec,2024-07-31
+31,61,Health,Theft,Under Review,1498.48,Manitoba,2024-10-08
+32,42,Home,Fire,Under Review,4517.99,Manitoba,2023-02-02
+33,66,Auto,Collision,Under Review,11245.88,Quebec,2024-07-22
+34,44,Home,Injury,Approved,18258.25,BC,2023-11-07
+35,59,Auto,Injury,Rejected,15035.33,Ontario,2024-07-24
+36,45,Home,Natural Disaster,Under Review,16432.21,Ontario,2023-04-10
+37,33,Health,Theft,Approved,12242.33,Ontario,2022-10-13
+38,32,Health,Collision,Under Review,15585.68,Quebec,2022-09-22
+39,64,Auto,Theft,Rejected,8560.93,Quebec,2022-11-16
+40,68,Life,Collision,Approved,12019.47,Alberta,2023-11-04
+41,61,Auto,Natural Disaster,Rejected,18734.84,Ontario,2024-03-30
+42,72,Auto,Natural Disaster,Rejected,21859.9,BC,2022-03-30
+43,69,Home,Injury,Approved,11124.56,BC,2024-03-31
+44,74,Home,Theft,Approved,1569.71,Ontario,2024-09-27
+45,20,Auto,Injury,Approved,4460.98,Ontario,2022-11-30
+46,54,Health,Theft,Approved,1011.1,Ontario,2022-08-10
+47,68,Home,Injury,Approved,16504.94,Quebec,2022-02-10
+48,24,Life,Fire,Approved,8641.71,Quebec,2022-03-09
+49,38,Home,Fire,Approved,13790.73,Quebec,2024-09-14
+50,26,Home,Fire,Under Review,12585.28,Manitoba,2023-05-29
+51,56,Life,Fire,Rejected,2497.4,BC,2023-11-26
+52,35,Auto,Collision,Approved,10379.9,BC,2024-11-05
+53,21,Life,Fire,Under Review,5903.75,Alberta,2023-04-22
+54,42,Auto,Natural Disaster,Under Review,10750.79,Quebec,2024-12-21
+55,31,Auto,Natural Disaster,Under Review,5487.67,Manitoba,2024-05-30
+56,67,Auto,Collision,Rejected,21091.08,Manitoba,2023-03-08
+57,26,Life,Fire,Approved,4767.74,BC,2022-09-25
+58,43,Auto,Fire,Under Review,24039.12,Quebec,2024-11-24
+59,70,Health,Fire,Rejected,10689.73,Alberta,2024-02-18
+60,19,Life,Injury,Rejected,21233.01,Quebec,2023-05-09
+61,37,Health,Theft,Rejected,15904.74,Ontario,2023-10-23
+62,45,Auto,Injury,Under Review,18516.08,Quebec,2024-10-09
+63,64,Home,Theft,Approved,19309.24,Ontario,2024-11-24
+64,24,Auto,Fire,Under Review,12868.7,Ontario,2024-09-03
+65,61,Health,Fire,Under Review,13810.86,Alberta,2023-04-27
+66,25,Health,Injury,Approved,13092.9,BC,2023-12-29
+67,64,Life,Injury,Approved,14907.43,Quebec,2023-04-25
+68,52,Home,Theft,Approved,1220.16,Ontario,2024-12-24
+69,31,Life,Natural Disaster,Rejected,10190.12,Quebec,2024-10-28
+70,34,Health,Theft,Approved,15351.62,BC,2022-12-09
+71,53,Auto,Injury,Under Review,15144.23,BC,2022-11-28
+72,67,Home,Injury,Approved,19927.42,Manitoba,2023-03-14
+73,57,Auto,Collision,Under Review,16547.73,BC,2022-06-23
+74,21,Auto,Injury,Rejected,24807.27,Alberta,2023-07-13
+75,19,Home,Collision,Under Review,7454.44,Ontario,2023-06-11
+76,23,Life,Natural Disaster,Under Review,9299.2,Manitoba,2023-10-21
+77,71,Auto,Theft,Approved,9904.26,Alberta,2022-01-26
+78,59,Health,Theft,Approved,11912.41,Quebec,2024-03-30
+79,21,Auto,Collision,Under Review,20981.95,Ontario,2023-08-28
+80,71,Home,Theft,Approved,6276.91,BC,2023-02-10
+81,46,Home,Injury,Rejected,19512.01,Ontario,2022-08-20
+82,35,Home,Fire,Rejected,10430.1,Quebec,2023-06-17
+83,43,Life,Collision,Approved,15245.46,Manitoba,2023-05-20
+84,61,Auto,Theft,Rejected,15997.24,Manitoba,2022-06-28
+85,51,Life,Collision,Approved,9634.79,Manitoba,2022-05-12
+86,27,Life,Collision,Under Review,13059.07,BC,2022-12-14
+87,53,Home,Fire,Under Review,10619.26,Alberta,2023-06-24
+88,31,Home,Injury,Rejected,2193.75,Alberta,2024-02-11
+89,48,Life,Collision,Approved,11210.55,Ontario,2022-03-17
+90,65,Auto,Theft,Approved,2886.14,BC,2023-08-02
+91,32,Health,Natural Disaster,Rejected,10423.01,Manitoba,2024-05-03
+92,25,Life,Collision,Under Review,15026.5,Manitoba,2022-07-13
+93,31,Auto,Collision,Rejected,14695.67,Quebec,2022-12-13
+94,40,Home,Fire,Under Review,16734.22,Quebec,2024-08-08
+95,74,Home,Injury,Approved,2833.91,Manitoba,2022-08-02
+96,57,Auto,Natural Disaster,Under Review,16477.02,Manitoba,2023-07-27
+97,38,Health,Theft,Rejected,8147.63,BC,2024-02-19
+98,33,Home,Natural Disaster,Approved,10276.63,Alberta,2022-09-19
+99,62,Home,Theft,Rejected,21520.66,Quebec,2023-12-31
+100,35,Home,Injury,Rejected,721.24,Alberta,2022-10-10
+101,64,Auto,Theft,Under Review,14916.11,BC,2022-12-28
+102,70,Life,Fire,Rejected,15168.49,Manitoba,2023-03-17
+103,41,Home,Fire,Under Review,10218.16,Alberta,2022-04-03
+104,43,Life,Fire,Approved,6307.18,Manitoba,2024-01-23
+105,42,Health,Fire,Under Review,6249.51,Manitoba,2024-05-16
+106,62,Home,Natural Disaster,Approved,22150.89,Ontario,2022-05-22
+107,58,Home,Injury,Under Review,11329.6,Alberta,2024-01-19
+108,46,Health,Theft,Rejected,8606.79,Alberta,2023-10-15
+109,32,Home,Theft,Under Review,11495.05,Manitoba,2023-12-02
+110,62,Life,Fire,Under Review,16900.06,BC,2024-09-24
+111,18,Auto,Fire,Approved,4071.04,Ontario,2022-02-18
+112,42,Life,Collision,Rejected,11511.13,Manitoba,2024-05-30
+113,24,Auto,Injury,Under Review,14903.17,Quebec,2023-07-09
+114,26,Auto,Natural Disaster,Rejected,23740.29,Quebec,2023-02-08
+115,41,Life,Theft,Under Review,6686.93,Ontario,2024-06-10
+116,18,Life,Collision,Under Review,9301.64,BC,2024-05-14
+117,61,Life,Collision,Rejected,9794.29,Manitoba,2023-08-25
+118,25,Life,Theft,Under Review,15335.68,Alberta,2022-12-07
+119,41,Health,Natural Disaster,Rejected,9239.94,Ontario,2023-12-05
+120,28,Home,Collision,Under Review,13571.04,BC,2022-11-14
+121,68,Auto,Collision,Approved,19653.86,Alberta,2023-09-10
+122,34,Life,Injury,Rejected,17781.95,Quebec,2023-01-17
+123,25,Life,Natural Disaster,Under Review,11436.03,Quebec,2022-08-21
+124,52,Life,Collision,Under Review,21673.3,Alberta,2024-03-27
+125,52,Health,Natural Disaster,Approved,14174.44,Ontario,2023-07-07
+126,50,Life,Theft,Rejected,13727.69,Quebec,2024-05-05
+127,22,Life,Fire,Under Review,1337.6,Manitoba,2024-03-29
+128,59,Life,Collision,Approved,24673.98,Alberta,2022-07-02
+129,56,Home,Injury,Under Review,3512.78,Alberta,2024-11-30
+130,58,Health,Theft,Rejected,6162.71,Quebec,2023-02-01
+131,45,Life,Natural Disaster,Under Review,1766.57,Ontario,2024-02-18
+132,24,Auto,Theft,Under Review,16180.07,Manitoba,2024-06-25
+133,26,Auto,Collision,Under Review,6005.18,Ontario,2022-05-07
+134,25,Auto,Natural Disaster,Under Review,4910.26,BC,2022-01-01
+135,29,Health,Fire,Approved,2669.61,BC,2022-01-19
+136,51,Health,Theft,Approved,3031.07,Quebec,2023-08-07
+137,50,Auto,Collision,Rejected,14824.43,Quebec,2023-04-01
+138,65,Life,Injury,Approved,17361.09,Quebec,2024-08-14
+139,72,Health,Natural Disaster,Approved,10235.79,BC,2023-03-21
+140,40,Auto,Theft,Rejected,12257.48,Ontario,2023-08-25
+141,41,Auto,Theft,Approved,17306.21,Ontario,2022-04-13
+142,54,Life,Fire,Approved,925.8,Quebec,2024-09-14
+143,52,Home,Fire,Rejected,8416.7,Manitoba,2023-06-04
+144,61,Health,Injury,Rejected,24340.89,Ontario,2024-05-08
+145,57,Life,Injury,Rejected,14712.75,BC,2022-06-23
+146,39,Auto,Collision,Under Review,6728.5,Alberta,2024-10-01
+147,44,Auto,Collision,Under Review,13282.39,Alberta,2023-03-07
+148,52,Life,Injury,Rejected,8895.01,Alberta,2023-12-28
+149,18,Health,Injury,Rejected,13540.0,Manitoba,2024-04-29
+150,52,Home,Natural Disaster,Rejected,3580.67,Quebec,2024-09-16
+151,54,Home,Fire,Under Review,3751.51,BC,2023-10-01
+152,64,Auto,Collision,Under Review,4016.79,Manitoba,2023-02-24
+153,31,Health,Fire,Approved,23525.58,BC,2023-08-17
+154,20,Home,Fire,Approved,18456.02,BC,2023-04-30
+155,18,Health,Injury,Rejected,4478.36,Quebec,2023-02-16
+156,22,Health,Natural Disaster,Under Review,5114.55,Alberta,2024-07-24
+157,43,Auto,Theft,Under Review,18405.32,Quebec,2022-11-28
+158,72,Home,Natural Disaster,Under Review,4326.01,Manitoba,2023-10-17
+159,31,Life,Natural Disaster,Rejected,6246.75,Manitoba,2022-02-10
+160,56,Auto,Fire,Approved,24102.0,Manitoba,2024-08-16
+161,44,Home,Natural Disaster,Rejected,6755.01,Quebec,2022-04-15
+162,26,Home,Collision,Approved,16709.99,BC,2022-07-21
+163,32,Home,Fire,Approved,24476.47,BC,2023-03-26
+164,32,Home,Collision,Rejected,9670.27,Ontario,2024-06-28
+165,43,Home,Theft,Approved,929.14,Manitoba,2022-07-29
+166,59,Health,Fire,Approved,6481.61,BC,2023-07-17
+167,30,Auto,Theft,Under Review,20856.49,Ontario,2023-12-14
+168,68,Health,Fire,Approved,21682.92,BC,2024-02-10
+169,49,Life,Injury,Rejected,19328.72,Manitoba,2023-03-30
+170,56,Home,Natural Disaster,Rejected,3271.19,Alberta,2023-10-29
+171,66,Auto,Injury,Approved,19990.0,Manitoba,2023-09-21
+172,69,Home,Theft,Under Review,23007.61,Quebec,2023-01-22
+173,49,Auto,Natural Disaster,Under Review,15214.93,BC,2022-10-23
+174,21,Health,Fire,Approved,23551.45,BC,2022-09-15
+175,47,Auto,Natural Disaster,Approved,20757.55,Quebec,2022-09-25
+176,54,Life,Collision,Rejected,16840.8,Quebec,2023-02-23
+177,40,Life,Natural Disaster,Approved,14641.04,Alberta,2022-08-23
+178,56,Auto,Collision,Under Review,9040.05,BC,2024-09-12
+179,62,Auto,Natural Disaster,Approved,4402.54,BC,2023-07-28
+180,32,Auto,Collision,Rejected,15321.37,Alberta,2022-02-18
+181,60,Auto,Theft,Rejected,8293.73,Ontario,2022-08-11
+182,46,Life,Injury,Rejected,21727.75,Alberta,2024-07-09
+183,53,Home,Fire,Rejected,24836.75,Manitoba,2022-10-04
+184,30,Auto,Natural Disaster,Rejected,18934.48,BC,2023-02-24
+185,49,Auto,Injury,Approved,2716.8,Quebec,2023-09-03
+186,24,Life,Fire,Approved,7572.8,Manitoba,2023-01-10
+187,68,Life,Fire,Approved,3173.19,BC,2022-03-14
+188,39,Health,Collision,Approved,16437.54,Alberta,2024-11-19
+189,45,Auto,Theft,Rejected,19247.18,Manitoba,2022-07-14
+190,19,Health,Theft,Under Review,23179.03,BC,2024-04-26
+191,59,Life,Injury,Approved,11235.22,Ontario,2024-11-30
+192,62,Life,Theft,Under Review,22583.7,Ontario,2024-12-22
+193,74,Home,Natural Disaster,Approved,22008.33,Quebec,2022-01-23
+194,70,Auto,Theft,Approved,8271.3,BC,2022-12-26
+195,23,Health,Injury,Under Review,21788.07,Ontario,2023-07-14
+196,45,Life,Theft,Rejected,9703.97,Alberta,2023-11-03
+197,45,Life,Natural Disaster,Approved,7773.3,BC,2023-11-10
+198,61,Health,Collision,Approved,16402.33,Alberta,2023-03-16
+199,61,Home,Injury,Approved,8545.34,Alberta,2024-07-21
+200,37,Life,Collision,Under Review,15940.11,Ontario,2022-01-07
+201,47,Auto,Collision,Rejected,15440.88,BC,2023-02-25
+202,28,Life,Collision,Under Review,14304.25,Manitoba,2024-04-12
+203,72,Auto,Fire,Under Review,9820.28,Ontario,2023-07-13
+204,45,Health,Fire,Rejected,13938.24,Ontario,2024-07-02
+205,42,Auto,Collision,Under Review,15113.89,BC,2024-10-03
+206,56,Health,Injury,Rejected,13869.33,BC,2022-05-06
+207,50,Auto,Natural Disaster,Approved,11388.28,Alberta,2023-01-30
+208,18,Health,Natural Disaster,Rejected,859.34,BC,2024-03-27
+209,74,Auto,Theft,Approved,14883.01,Alberta,2024-05-30
+210,44,Home,Injury,Under Review,4626.89,Ontario,2023-07-30
+211,74,Auto,Fire,Under Review,16243.11,Quebec,2022-11-21
+212,69,Auto,Collision,Approved,19103.94,Manitoba,2024-07-18
+213,30,Home,Theft,Under Review,12760.91,Ontario,2024-04-12
+214,58,Life,Natural Disaster,Rejected,13787.91,BC,2024-11-20
+215,20,Life,Fire,Approved,23811.22,Manitoba,2024-04-16
+216,56,Auto,Fire,Under Review,21255.6,Quebec,2024-07-14
+217,23,Home,Collision,Approved,22898.79,Quebec,2023-03-19
+218,25,Auto,Natural Disaster,Rejected,20437.27,Alberta,2022-03-16
+219,44,Health,Injury,Rejected,3168.5,Manitoba,2023-07-11
+220,26,Health,Fire,Under Review,4150.3,Alberta,2022-12-29
+221,54,Auto,Collision,Rejected,13402.28,Ontario,2023-03-24
+222,50,Life,Injury,Approved,6528.71,Manitoba,2022-09-19
+223,68,Life,Natural Disaster,Rejected,12179.04,Ontario,2022-05-05
+224,59,Auto,Fire,Approved,10161.95,Alberta,2024-06-29
+225,61,Auto,Injury,Approved,13960.65,Manitoba,2022-09-02
+226,41,Health,Injury,Rejected,18798.46,Alberta,2023-06-26
+227,32,Life,Injury,Under Review,18029.53,Manitoba,2023-04-30
+228,71,Auto,Fire,Rejected,13270.24,Alberta,2022-05-02
+229,49,Health,Fire,Approved,20648.64,Quebec,2022-05-05
+230,49,Life,Theft,Approved,11056.12,Alberta,2022-06-19
+231,41,Home,Natural Disaster,Rejected,22469.5,Quebec,2022-05-04
+232,58,Health,Collision,Under Review,2246.37,Alberta,2024-11-24
+233,69,Life,Injury,Under Review,23889.17,Manitoba,2023-10-08
+234,66,Life,Theft,Approved,16539.98,Manitoba,2024-02-25
+235,66,Health,Collision,Approved,9811.83,Manitoba,2022-07-20
+236,69,Home,Theft,Under Review,5330.28,BC,2023-01-04
+237,29,Health,Fire,Rejected,12239.99,Ontario,2024-03-07
+238,56,Life,Injury,Approved,5266.68,Manitoba,2022-03-18
+239,19,Auto,Collision,Approved,4575.12,Quebec,2022-02-28
+240,20,Auto,Collision,Under Review,15625.12,Manitoba,2023-03-07
+241,66,Health,Collision,Rejected,13315.58,BC,2023-09-30
+242,54,Life,Collision,Under Review,16917.35,Quebec,2022-04-19
+243,66,Auto,Collision,Rejected,23275.34,BC,2024-10-04
+244,73,Life,Theft,Rejected,13540.38,Quebec,2022-03-09
+245,34,Health,Injury,Rejected,14732.84,Alberta,2024-12-28
+246,66,Auto,Fire,Approved,2695.85,Ontario,2022-11-01
+247,19,Life,Fire,Under Review,18082.08,Ontario,2023-11-05
+248,19,Auto,Fire,Under Review,10297.68,BC,2022-12-31
+249,45,Health,Fire,Rejected,24429.77,Ontario,2024-03-31
+250,71,Life,Theft,Approved,20667.76,BC,2022-12-09
+251,40,Auto,Natural Disaster,Approved,13300.79,BC,2024-08-04
+252,54,Health,Injury,Under Review,3518.96,BC,2024-06-17
+253,49,Auto,Collision,Approved,21555.69,Ontario,2024-02-01
+254,50,Auto,Natural Disaster,Approved,20094.64,BC,2022-12-07
+255,18,Home,Fire,Rejected,5022.34,Ontario,2024-07-30
+256,36,Home,Natural Disaster,Approved,7734.32,BC,2023-01-18
+257,19,Health,Injury,Rejected,19938.48,Manitoba,2024-09-30
+258,70,Home,Collision,Under Review,5038.1,BC,2022-10-27
+259,61,Health,Collision,Approved,22984.94,Quebec,2022-05-19
+260,43,Home,Injury,Under Review,10900.92,BC,2022-12-25
+261,49,Auto,Injury,Under Review,2632.45,Alberta,2024-04-15
+262,23,Health,Fire,Approved,20485.84,BC,2023-04-28
+263,49,Health,Collision,Approved,9650.99,Quebec,2024-06-27
+264,72,Auto,Natural Disaster,Under Review,13399.23,Quebec,2024-05-15
+265,21,Health,Theft,Approved,3251.46,Ontario,2022-05-19
+266,72,Health,Theft,Rejected,563.31,Manitoba,2024-09-22
+267,28,Home,Injury,Rejected,16130.64,BC,2023-03-11
+268,73,Health,Fire,Approved,13121.79,Ontario,2023-05-24
+269,34,Life,Theft,Under Review,15041.69,Manitoba,2022-09-30
+270,55,Auto,Collision,Approved,19946.72,BC,2022-04-14
+271,41,Home,Injury,Approved,16341.84,Alberta,2024-02-01
+272,22,Home,Natural Disaster,Under Review,4781.95,BC,2024-02-26
+273,69,Life,Injury,Under Review,9338.93,Quebec,2022-06-14
+274,51,Auto,Natural Disaster,Rejected,22694.33,Quebec,2024-09-25
+275,23,Auto,Injury,Under Review,19363.65,Alberta,2023-06-04
+276,39,Home,Injury,Rejected,14137.61,Ontario,2023-06-01
+277,28,Health,Injury,Under Review,6763.3,Manitoba,2023-10-19
+278,65,Home,Natural Disaster,Approved,7900.48,BC,2023-09-05
+279,33,Auto,Natural Disaster,Rejected,18432.97,Quebec,2022-06-13
+280,50,Life,Injury,Rejected,21353.77,Ontario,2022-03-05
+281,26,Home,Theft,Rejected,16949.9,Alberta,2022-09-24
+282,23,Auto,Fire,Approved,20333.48,Quebec,2022-09-03
+283,33,Home,Fire,Approved,19283.08,Alberta,2023-01-30
+284,46,Health,Fire,Approved,4167.75,BC,2023-04-21
+285,20,Home,Natural Disaster,Approved,10886.65,Manitoba,2024-09-03
+286,37,Home,Natural Disaster,Approved,4248.1,Quebec,2024-11-09
+287,53,Auto,Theft,Rejected,6263.27,Quebec,2023-07-12
+288,36,Auto,Fire,Approved,21796.86,BC,2024-10-14
+289,43,Auto,Fire,Rejected,12085.85,Ontario,2024-06-01
+290,20,Home,Injury,Approved,13616.27,Manitoba,2022-05-27
+291,36,Health,Natural Disaster,Under Review,4871.93,Quebec,2023-10-28
+292,37,Life,Fire,Rejected,8150.66,Manitoba,2023-09-12
+293,49,Life,Theft,Under Review,6141.03,Quebec,2024-03-30
+294,24,Auto,Theft,Rejected,5551.56,Manitoba,2024-05-13
+295,69,Auto,Fire,Under Review,16130.04,Alberta,2023-08-05
+296,58,Home,Natural Disaster,Approved,6793.65,Quebec,2024-10-19
+297,50,Life,Theft,Approved,15984.38,Manitoba,2023-11-26
+298,57,Auto,Injury,Approved,1932.14,Ontario,2023-02-11
+299,56,Health,Theft,Rejected,3973.47,Alberta,2023-02-03
+300,35,Health,Collision,Under Review,7226.24,Alberta,2023-12-16
+301,57,Auto,Collision,Approved,15127.65,Ontario,2023-12-05
+302,18,Auto,Natural Disaster,Under Review,17058.11,Manitoba,2024-01-31
+303,28,Life,Fire,Under Review,11346.57,BC,2023-05-14
+304,45,Life,Natural Disaster,Approved,11421.88,Ontario,2024-08-31
+305,74,Home,Natural Disaster,Approved,18250.66,Manitoba,2022-03-23
+306,42,Life,Natural Disaster,Under Review,887.62,Ontario,2023-08-27
+307,67,Health,Natural Disaster,Approved,8856.71,Ontario,2024-02-11
+308,40,Health,Injury,Approved,20558.32,Quebec,2024-06-21
+309,48,Auto,Injury,Approved,15278.88,Manitoba,2022-12-31
+310,47,Life,Theft,Rejected,8762.06,BC,2022-06-12
+311,59,Home,Collision,Under Review,22685.36,Quebec,2024-12-07
+312,52,Health,Natural Disaster,Under Review,19429.26,Ontario,2023-05-26
+313,24,Health,Theft,Rejected,6989.94,Ontario,2022-04-26
+314,33,Home,Collision,Under Review,16309.6,Ontario,2024-07-29
+315,43,Home,Fire,Approved,15095.89,Manitoba,2022-12-03
+316,65,Health,Injury,Under Review,10329.1,Manitoba,2024-05-30
+317,74,Health,Collision,Approved,9490.42,Quebec,2024-01-07
+318,69,Home,Fire,Rejected,8917.23,BC,2024-04-19
+319,66,Health,Collision,Approved,15620.32,Quebec,2022-05-27
+320,19,Auto,Injury,Under Review,11339.04,Alberta,2023-03-19
+321,18,Auto,Injury,Under Review,20880.65,Ontario,2024-04-16
+322,65,Home,Theft,Under Review,16905.26,Ontario,2024-11-02
+323,29,Life,Natural Disaster,Rejected,2213.32,Ontario,2024-07-31
+324,22,Home,Collision,Rejected,16184.12,Quebec,2022-10-14
+325,54,Home,Collision,Under Review,7143.11,Quebec,2023-12-21
+326,49,Life,Fire,Approved,15023.89,Ontario,2023-04-25
+327,72,Life,Injury,Rejected,17163.23,Quebec,2022-01-22
+328,26,Life,Collision,Under Review,6155.32,Manitoba,2023-11-14
+329,58,Auto,Injury,Under Review,11693.04,Manitoba,2024-06-24
+330,52,Health,Collision,Rejected,5162.96,Quebec,2022-11-16
+331,36,Auto,Theft,Rejected,1782.3,Ontario,2022-05-06
+332,65,Health,Natural Disaster,Rejected,9772.67,Quebec,2022-10-04
+333,33,Auto,Collision,Approved,9392.13,Quebec,2022-07-13
+334,20,Health,Injury,Approved,24889.27,Quebec,2023-11-27
+335,37,Auto,Theft,Under Review,11435.63,Alberta,2022-02-26
+336,41,Life,Collision,Rejected,8672.45,Manitoba,2022-01-19
+337,71,Home,Fire,Approved,14721.64,BC,2022-09-21
+338,73,Auto,Natural Disaster,Rejected,2674.8,BC,2024-03-04
+339,50,Health,Collision,Under Review,24060.81,Alberta,2022-04-23
+340,41,Life,Theft,Approved,16056.52,Quebec,2023-06-26
+341,69,Auto,Fire,Approved,18993.53,Alberta,2023-10-09
+342,28,Auto,Theft,Approved,4676.71,Alberta,2023-08-02
+343,66,Life,Theft,Under Review,10532.21,Ontario,2024-12-24
+344,25,Auto,Fire,Rejected,10855.88,Manitoba,2022-01-25
+345,53,Home,Theft,Approved,20634.26,BC,2022-01-01
+346,55,Auto,Fire,Under Review,530.3,Quebec,2024-06-29
+347,57,Home,Collision,Rejected,7870.9,BC,2022-05-21
+348,37,Home,Fire,Under Review,24540.29,BC,2023-10-10
+349,52,Life,Fire,Rejected,12134.72,Manitoba,2022-07-07
+350,65,Auto,Natural Disaster,Under Review,9871.89,BC,2022-07-20
+351,42,Life,Fire,Rejected,3435.81,BC,2022-09-14
+352,52,Auto,Fire,Approved,24367.03,Alberta,2023-07-01
+353,42,Auto,Collision,Rejected,990.65,Manitoba,2022-07-13
+354,46,Health,Natural Disaster,Under Review,18560.92,Ontario,2023-12-04
+355,35,Auto,Injury,Under Review,19330.7,Quebec,2024-03-12
+356,63,Life,Collision,Rejected,6469.59,BC,2024-07-30
+357,35,Home,Collision,Approved,16953.18,Quebec,2023-02-18
+358,19,Auto,Injury,Approved,2776.76,Ontario,2024-06-28
+359,71,Health,Fire,Rejected,6797.66,Quebec,2022-07-07
+360,52,Life,Theft,Rejected,19803.6,Ontario,2022-02-14
+361,33,Auto,Natural Disaster,Under Review,21684.81,Alberta,2022-03-24
+362,58,Life,Theft,Approved,15407.92,BC,2022-12-24
+363,53,Health,Injury,Rejected,12917.54,Ontario,2024-12-25
+364,50,Health,Collision,Approved,4402.95,Quebec,2024-07-24
+365,21,Life,Collision,Rejected,2046.17,BC,2023-01-10
+366,50,Auto,Natural Disaster,Rejected,3382.4,Alberta,2022-06-11
+367,31,Home,Collision,Approved,6070.25,BC,2022-11-18
+368,38,Health,Collision,Rejected,8871.03,Ontario,2023-03-26
+369,65,Auto,Natural Disaster,Rejected,9832.28,Alberta,2024-11-02
+370,37,Auto,Natural Disaster,Under Review,8984.88,Quebec,2022-07-03
+371,73,Home,Injury,Rejected,6356.86,Alberta,2022-04-21
+372,25,Health,Collision,Rejected,12988.24,Alberta,2023-05-23
+373,24,Health,Collision,Rejected,20719.51,Manitoba,2022-10-22
+374,20,Auto,Injury,Under Review,7352.74,Alberta,2024-06-22
+375,34,Auto,Fire,Approved,23588.48,Alberta,2024-08-31
+376,50,Home,Fire,Under Review,21896.75,BC,2023-09-24
+377,65,Home,Fire,Under Review,4463.22,Quebec,2024-11-16
+378,29,Health,Injury,Approved,19763.76,BC,2024-01-03
+379,68,Life,Collision,Under Review,14577.39,BC,2022-11-17
+380,39,Health,Injury,Approved,14381.1,Ontario,2024-07-01
+381,72,Auto,Injury,Under Review,10080.55,BC,2023-03-13
+382,39,Health,Fire,Approved,12778.25,Manitoba,2024-02-20
+383,63,Life,Theft,Rejected,10230.88,Manitoba,2024-12-12
+384,47,Home,Collision,Under Review,13723.45,Ontario,2023-12-27
+385,55,Life,Fire,Under Review,15884.78,Quebec,2022-01-31
+386,55,Life,Theft,Under Review,17020.44,Quebec,2022-12-03
+387,62,Life,Theft,Under Review,13545.79,BC,2022-07-02
+388,68,Home,Natural Disaster,Rejected,18174.84,BC,2024-11-12
+389,71,Life,Collision,Under Review,3961.31,BC,2023-06-28
+390,25,Life,Theft,Rejected,5693.57,Quebec,2024-10-30
+391,44,Life,Fire,Rejected,20559.01,Alberta,2023-10-22
+392,44,Auto,Natural Disaster,Rejected,8401.94,Manitoba,2022-06-09
+393,51,Life,Collision,Rejected,1060.9,Alberta,2024-11-03
+394,38,Home,Injury,Approved,4267.88,Alberta,2023-02-16
+395,47,Life,Fire,Approved,5978.55,Quebec,2024-10-08
+396,50,Life,Theft,Under Review,23954.41,Alberta,2022-02-22
+397,45,Home,Theft,Approved,14539.52,Ontario,2023-02-12
+398,64,Life,Fire,Approved,23351.9,BC,2024-04-26
+399,50,Home,Theft,Under Review,14591.5,Ontario,2024-11-11
+400,22,Life,Natural Disaster,Under Review,12244.18,Manitoba,2024-11-19
+401,65,Home,Collision,Under Review,8186.33,BC,2023-12-04
+402,36,Life,Natural Disaster,Approved,15356.09,Alberta,2022-09-17
+403,21,Life,Theft,Approved,3910.35,Manitoba,2024-12-18
+404,52,Auto,Injury,Under Review,22507.41,BC,2024-02-15
+405,66,Auto,Collision,Rejected,20818.64,Alberta,2024-11-01
+406,34,Life,Collision,Under Review,8279.52,Ontario,2024-04-29
+407,61,Life,Fire,Rejected,23843.54,BC,2022-12-20
+408,45,Health,Fire,Rejected,20717.42,Alberta,2024-05-22
+409,47,Home,Injury,Under Review,16824.52,Ontario,2024-09-17
+410,46,Health,Collision,Under Review,3483.17,Manitoba,2024-10-14
+411,63,Auto,Injury,Under Review,12216.73,Manitoba,2022-10-21
+412,70,Auto,Fire,Approved,12899.64,Manitoba,2022-07-28
+413,23,Auto,Fire,Rejected,6197.51,Manitoba,2024-03-28
+414,52,Auto,Collision,Approved,2459.15,Quebec,2023-01-25
+415,58,Life,Natural Disaster,Approved,19529.73,BC,2022-11-21
+416,54,Auto,Theft,Under Review,3489.86,BC,2024-07-28
+417,41,Life,Fire,Approved,15060.12,Quebec,2024-06-07
+418,46,Life,Fire,Under Review,23443.0,Alberta,2023-10-30
+419,66,Auto,Natural Disaster,Rejected,21964.58,Alberta,2023-09-25
+420,63,Auto,Natural Disaster,Under Review,7304.94,Manitoba,2023-07-31
+421,70,Home,Injury,Approved,21360.49,Ontario,2022-05-17
+422,48,Health,Injury,Approved,508.15,Alberta,2023-03-04
+423,52,Auto,Theft,Under Review,933.35,Ontario,2023-09-04
+424,50,Home,Theft,Under Review,15262.55,BC,2024-06-29
+425,69,Home,Collision,Approved,9437.56,Ontario,2024-03-29
+426,38,Health,Injury,Rejected,9968.29,BC,2022-05-21
+427,49,Life,Fire,Rejected,14328.81,Quebec,2022-06-26
+428,40,Auto,Injury,Under Review,5198.67,Quebec,2022-07-17
+429,50,Health,Fire,Rejected,5688.01,Manitoba,2023-09-16
+430,20,Auto,Natural Disaster,Approved,12372.74,Alberta,2023-11-22
+431,35,Home,Injury,Under Review,18979.21,Manitoba,2023-02-05
+432,42,Home,Natural Disaster,Approved,15677.69,BC,2023-04-16
+433,59,Life,Theft,Approved,7785.2,Manitoba,2022-08-06
+434,48,Home,Theft,Rejected,11043.26,Ontario,2024-07-17
+435,71,Home,Collision,Under Review,4681.29,BC,2023-09-24
+436,20,Health,Injury,Under Review,2328.43,Quebec,2024-08-08
+437,57,Auto,Natural Disaster,Rejected,19676.05,Alberta,2024-06-24
+438,63,Auto,Fire,Approved,7001.99,BC,2022-06-24
+439,41,Health,Theft,Approved,4855.28,BC,2022-01-23
+440,67,Life,Theft,Approved,17444.64,Ontario,2022-08-23
+441,49,Auto,Fire,Approved,15642.27,Alberta,2024-11-02
+442,64,Home,Natural Disaster,Under Review,16013.15,Quebec,2024-07-17
+443,39,Auto,Natural Disaster,Under Review,6107.92,BC,2023-06-07
+444,40,Home,Injury,Rejected,6199.82,BC,2023-03-07
+445,19,Life,Injury,Rejected,5909.66,Ontario,2024-03-03
+446,44,Health,Collision,Under Review,4756.94,Manitoba,2023-06-17
+447,59,Auto,Theft,Under Review,16565.23,Quebec,2024-09-05
+448,19,Health,Injury,Approved,21276.39,Alberta,2024-03-20
+449,43,Auto,Natural Disaster,Approved,18245.78,BC,2024-07-01
+450,34,Home,Fire,Rejected,19906.29,BC,2024-05-20
+451,57,Health,Natural Disaster,Under Review,10417.56,Quebec,2023-06-24
+452,50,Auto,Theft,Rejected,16524.86,Manitoba,2024-10-20
+453,26,Home,Natural Disaster,Under Review,9178.79,BC,2022-08-15
+454,60,Health,Collision,Approved,13374.86,Quebec,2024-05-22
+455,71,Health,Theft,Rejected,12300.05,Ontario,2024-06-10
+456,65,Auto,Fire,Rejected,4833.74,Manitoba,2024-11-02
+457,56,Auto,Collision,Under Review,9983.43,Alberta,2022-07-29
+458,46,Auto,Theft,Approved,24113.65,BC,2024-01-11
+459,59,Home,Fire,Rejected,6590.22,Quebec,2023-02-01
+460,72,Auto,Collision,Approved,3778.19,Ontario,2022-01-31
+461,43,Health,Collision,Rejected,10755.23,Alberta,2024-06-16
+462,52,Health,Theft,Approved,19863.27,Quebec,2023-10-11
+463,67,Auto,Injury,Under Review,14762.63,Quebec,2022-11-25
+464,42,Auto,Collision,Rejected,17183.88,Alberta,2024-08-09
+465,41,Life,Collision,Rejected,5147.52,Ontario,2023-09-13
+466,30,Health,Fire,Approved,15664.23,Ontario,2022-06-11
+467,24,Home,Natural Disaster,Approved,8425.76,Manitoba,2024-02-15
+468,74,Life,Theft,Rejected,20940.43,BC,2022-10-01
+469,53,Auto,Theft,Under Review,15917.82,Alberta,2024-10-23
+470,62,Auto,Injury,Approved,5371.98,Alberta,2024-11-17
+471,37,Health,Injury,Approved,2083.11,Alberta,2022-11-22
+472,18,Auto,Theft,Approved,1544.51,Ontario,2024-07-28
+473,25,Home,Injury,Rejected,9599.51,BC,2023-06-24
+474,63,Health,Fire,Rejected,7013.35,Manitoba,2023-05-03
+475,33,Auto,Theft,Rejected,16329.21,Quebec,2024-04-01
+476,31,Health,Injury,Rejected,12733.68,Quebec,2024-12-24
+477,29,Auto,Theft,Under Review,7017.47,Alberta,2022-12-22
+478,68,Auto,Natural Disaster,Under Review,4156.33,BC,2022-08-23
+479,40,Auto,Collision,Rejected,3616.39,Ontario,2022-08-15
+480,32,Home,Theft,Under Review,21684.18,BC,2022-02-18
+481,45,Home,Collision,Approved,6465.21,BC,2022-04-28
+482,51,Health,Injury,Approved,16466.91,Ontario,2022-02-23
+483,19,Auto,Collision,Approved,20361.81,Alberta,2023-07-19
+484,49,Auto,Theft,Rejected,15544.99,BC,2024-12-03
+485,40,Home,Natural Disaster,Approved,21559.35,Quebec,2022-02-22
+486,39,Auto,Injury,Under Review,10113.65,Ontario,2023-07-12
+487,68,Home,Theft,Rejected,23927.44,Manitoba,2024-05-17
+488,42,Auto,Injury,Under Review,3762.05,Alberta,2023-02-02
+489,39,Health,Fire,Approved,3002.66,Ontario,2023-11-06
+490,39,Auto,Collision,Approved,16637.96,Manitoba,2023-01-22
+491,66,Auto,Fire,Approved,23599.36,Manitoba,2022-04-21
+492,69,Life,Theft,Rejected,20317.64,BC,2023-09-06
+493,59,Home,Natural Disaster,Under Review,2372.21,BC,2022-01-17
+494,23,Auto,Injury,Rejected,7344.51,BC,2024-06-02
+495,32,Auto,Collision,Rejected,23292.81,Ontario,2023-06-25
+496,71,Life,Injury,Approved,6699.93,Ontario,2022-06-20
+497,60,Life,Theft,Rejected,19638.68,Alberta,2023-02-13
+498,54,Home,Injury,Rejected,20715.74,BC,2024-01-10
+499,50,Life,Collision,Approved,12638.58,Manitoba,2024-05-07
+500,25,Health,Theft,Rejected,9965.55,Quebec,2022-08-18
